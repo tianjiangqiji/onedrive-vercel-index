@@ -36,7 +36,7 @@ module.exports = {
   // quotes - changing " to \". You can write anything here, and if you like badges, generate some with https://shields.io
   footer:
     'Powered by <a href="https://github.com/tianjiangqiji/onedrive-vercel-index" target="_blank" rel="noopener noreferrer">onedrive-vercel-index</a>. Made with ❤ by Skyjee.',
-
+    '<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="43" height="20" role="img" aria-label="你好啊"><title>你好啊</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="43" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="0" height="20" fill="#fe7d37"/><rect x="0" width="43" height="20" fill="#fe7d37"/><rect width="43" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="215" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="330">你好啊</text><text x="215" y="140" transform="scale(.1)" fill="#fff" textLength="330">你好啊</text></g></svg>',
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
   protectedRoutes: ['/protect', '/图图'],
@@ -55,6 +55,10 @@ module.exports = {
     {
       name: 'QQ',
       link: 'http://wpa.qq.com/msgrd?v=3&uin=2590638513&site=qq&menu=yes',
+    },
+    {
+      name: 'cloud',
+      link: 'http://pan.tianjiangqiji.top/',
     },
   ],
 
